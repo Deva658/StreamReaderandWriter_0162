@@ -24,4 +24,5 @@ int main() {
         //menulis dan memasukan nilai dari 'baris ke dalam file
         oufile << baris << endl;
     }
-  
+    //selesai dalam menulis sekarang tutup filenya
+    oufile.close();
