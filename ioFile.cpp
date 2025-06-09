@@ -42,3 +42,6 @@ int main() {
             //menampilkan setiap baris yang dibaca
             cout << baris << '\n';
         }
+        //tutup file tersebut di sini
+        infile.close();
+    }
