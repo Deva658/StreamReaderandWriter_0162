@@ -45,3 +45,7 @@ int main() {
         //tutup file tersebut di sini
         infile.close();
     }
+    //jika tidak ditemukan file maka akan menampilakn ini
+    else cout << "unable to open file";
+    return 0;
+}
