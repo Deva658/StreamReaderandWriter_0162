@@ -31,3 +31,14 @@ int main() {
     ifstream infile;
     //membuka file yang dituliskan
     infile.open("contohfile.txt");
+
+    cout << endl << ">= membuka dan membaca file " << endl;
+    //jika file ada maka
+    if (infile.is_open()) 
+    {
+        //membaca file baris per baris
+        while (getline(infile, baris)) 
+        {
+            //menampilkan setiap baris yang dibaca
+            cout << baris << '\n';
+        }
